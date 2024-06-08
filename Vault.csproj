@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>bin\Debug\net8.0-windows\Icon.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Extended.Wpf.Toolkit" Version="4.6.0" />
+      <PackageReference Include="WPF-UI" Version="3.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net8.0-windows\Icon.ico" />
+    </ItemGroup>
+
+</Project>

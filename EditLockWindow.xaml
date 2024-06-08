@@ -1,0 +1,26 @@
+﻿<ui:FluentWindow x:Class="Vault.EditLockWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+                 mc:Ignorable="d"
+                 Title="Vault" Height="475" Width="450"
+                 WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <ui:TitleBar Title="Edit Secret Plan"></ui:TitleBar>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10, 10, 10, 20">
+            <ui:TextBlock Text="Change or remove the password from the folder." FontSize="20" Margin="5"/>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5">
+            <ui:PasswordBox PlaceholderText="Password" x:Name="PasswordBox" Width="400" Margin="5"/>
+            <ui:PasswordBox PlaceholderText="Confirm Password" x:Name="ConfirmPasswordBox" Width="400" Margin="5" KeyDown="OnConfirmPasswordBoxKeyDown"/>
+            <ui:Button Content="Remove Password" Width="400" Margin="15" Click="OnRemoveButtonClicked"/>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5">
+            <ui:PasswordBox PlaceholderText="Old Password" x:Name="OldPasswordBox" Width="400" Margin="5"/>
+            <ui:PasswordBox PlaceholderText="New Password" x:Name="NewPasswordBox" Width="400" Margin="5" KeyDown="OnNewPasswordBoxKeyDown"/>
+            <ui:Button Content="Change Password" Width="400" Margin="15" Click="OnChangeButtonClicked"/>
+        </StackPanel>
+    </StackPanel>
+</ui:FluentWindow>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7BjeELSLZffdCRSkSSuNqt415/sj/Xlde22ipUUHN/HH8Pvhw3bG96usmS355vFiIRq1MgBbLbnv7DiRJoldBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\miste\\Desktop\\Bugs Bunny's Pocket\\Active production\\Vault\\Vault.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miste\\.nuget\\packages\\extended.wpf.toolkit\\4.6.0\\extended.wpf.toolkit.4.6.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\wpf-ui\\3.0.4\\wpf-ui.3.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,245 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Extended.Wpf.Toolkit/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {}
+        },
+        "resource": {
+          "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "WPF-UI/3.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/Wpf.Ui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Wpf.Ui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Extended.Wpf.Toolkit/4.6.0": {
+      "sha512": "W67USjczMau4R5g8aU9/knYpCqnFurZ/kmzXnSvqxhC9YR3KaUTT2L+95WWoL1u9qlQ48U6ORP9s6I6x9/yW4Q==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/4.6.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Xceed_Logo_Retina-400x400.png",
+        "extended.wpf.toolkit.4.6.0.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/nl-BE/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll",
+        "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "WPF-UI/3.0.4": {
+      "sha512": "Jbt8nJ4MSC/WBhqx6iXOW06Rt2UUNVxA8+23AOSM63jlOIhU6e6P4BIw8rL/UnRPycOdA2vntYl5i7k53E0AGg==",
+      "type": "package",
+      "path": "wpf-ui/3.0.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Wpf.Ui.dll",
+        "lib/net462/Wpf.Ui.pdb",
+        "lib/net462/Wpf.Ui.xml",
+        "lib/net472/Wpf.Ui.dll",
+        "lib/net472/Wpf.Ui.pdb",
+        "lib/net472/Wpf.Ui.xml",
+        "lib/net481/Wpf.Ui.dll",
+        "lib/net481/Wpf.Ui.pdb",
+        "lib/net481/Wpf.Ui.xml",
+        "lib/net6.0-windows7.0/Wpf.Ui.dll",
+        "lib/net6.0-windows7.0/Wpf.Ui.pdb",
+        "lib/net6.0-windows7.0/Wpf.Ui.xml",
+        "lib/net7.0-windows7.0/Wpf.Ui.dll",
+        "lib/net7.0-windows7.0/Wpf.Ui.pdb",
+        "lib/net7.0-windows7.0/Wpf.Ui.xml",
+        "lib/net8.0-windows7.0/Wpf.Ui.dll",
+        "lib/net8.0-windows7.0/Wpf.Ui.pdb",
+        "lib/net8.0-windows7.0/Wpf.Ui.xml",
+        "tools/VisualStudioToolsManifest.xml",
+        "wpf-ui.3.0.4.nupkg.sha512",
+        "wpf-ui.nuspec",
+        "wpfui.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Extended.Wpf.Toolkit >= 4.6.0",
+      "WPF-UI >= 3.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\miste\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\miste\\Desktop\\Bugs Bunny's Pocket\\Active production\\Vault\\Vault.csproj",
+      "projectName": "Vault",
+      "projectPath": "C:\\Users\\miste\\Desktop\\Bugs Bunny's Pocket\\Active production\\Vault\\Vault.csproj",
+      "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\miste\\Desktop\\Bugs Bunny's Pocket\\Active production\\Vault\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\miste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Extended.Wpf.Toolkit": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          },
+          "WPF-UI": {
+            "target": "Package",
+            "version": "[3.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
